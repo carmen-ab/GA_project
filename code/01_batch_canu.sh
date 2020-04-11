@@ -4,13 +4,14 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 18:00:00
-#SBATCH -J 04_assembly
+#SBATCH -J 05_assembly
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user carmen.abaor@gmail.com
 
 # Load modules
 
-module load-bioinfo-tools canu\2.0
+module load-bioinfo-tools 
+module load canu\2.0
 
 # Your commands
 
@@ -19,4 +20,4 @@ canu \
 genomeSize=2.5m \
 -pacbio-raw ~/GA_project/data/DNA/DNA_raw_data/ERR2028*.fastq.gz \
 stopOnReadQuality=false \
-corThreads=2
+maxThreads=4
