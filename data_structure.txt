@@ -1,0 +1,28 @@
+#Explanatory file for data organization
+
+	GA_project/
+	|
+	|
+	|-----data
+	|	|
+	|	|-----metadata
+	|Â	|
+	|	|-----DNA
+	|	|	|
+	|	|	|-----DNA_raw_data
+	|	|
+	|	|-----RNA
+	|		|
+	|		|-----RNA_raw_data
+	|
+	|
+	|-----code
+	|	|
+	|	|-----01_assemblÃy.sh
+	|
+	|	
+	|-----analyses
+		|
+		|-----01_assembly
+			|
+			|-----01_canu
