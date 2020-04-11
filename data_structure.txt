@@ -24,5 +24,3 @@
 	|-----analyses
 		|
 		|-----01_assembly
-			|
-			|-----01_canu
