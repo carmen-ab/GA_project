@@ -1,16 +1,15 @@
 #!/bin/bash -l
-
 #SBATCH -A g2020008
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 18:00:00
-#SBATCH -J 07_assembly
+#SBATCH -J 08_assembly
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user carmen.abaor@gmail.com
 
 # Load modules
 
-module load-bioinfo-tools canu/2.0
+module load bioinfo-tools canu/2.0
 
 # Your commands
 
