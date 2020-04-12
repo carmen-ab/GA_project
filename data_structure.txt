@@ -6,21 +6,19 @@
 	|-----data
 	|	|
 	|	|-----metadata
-	|Â	|
+	|Â	|	|-----info.csv
+	|	|	
 	|	|-----DNA
-	|	|	|
 	|	|	|-----DNA_raw_data
+	|	|	|-----DNA_reference
 	|	|
 	|	|-----RNA
-	|		|
 	|		|-----RNA_raw_data
-	|
+	|		|-----RNA_trimmed
 	|
 	|-----code
-	|	|
-	|	|-----01_assemblÃy.sh
+	|	|-----01_batch_canu.sh
 	|
 	|	
 	|-----analyses
-		|
 		|-----01_assembly
