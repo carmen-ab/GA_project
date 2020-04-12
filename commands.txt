@@ -1,0 +1,6 @@
+# This file contains all commands/programs that have been run on the command line directly
+# The exception are those commands who are specified in the Student Manual
+
+## FASTQC EVALUATION OF RNA RAW DATA
+
+fastqc -o analyses/02_trimming/fastqc -t 4 data/RNA/RNA_raw_data/* data/RNA/RNA_trimmed/* 
