@@ -1,2 +1,8 @@
 # This file contains all commands/programs that have been run on the command line directly
 # The exception are those commands who are specified in the Student Manual
+
+#TO RUN QUAST
+
+module load bioinfo-tools quast/4.5.4
+
+quast.py -o analyses/01_assembly/02_quast data/DNA/DNA_raw_data -r data/DNA/reference/OBMB01.fasta -t 4
