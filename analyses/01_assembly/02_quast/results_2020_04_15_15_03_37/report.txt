@@ -1,0 +1,51 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     canu.contigs
+# contigs (>= 0 bp)          4           
+# contigs (>= 1000 bp)       4           
+# contigs (>= 5000 bp)       3           
+# contigs (>= 10000 bp)      3           
+# contigs (>= 25000 bp)      2           
+# contigs (>= 50000 bp)      1           
+Total length (>= 0 bp)       2636043     
+Total length (>= 1000 bp)    2636043     
+Total length (>= 5000 bp)    2633446     
+Total length (>= 10000 bp)   2633446     
+Total length (>= 25000 bp)   2612303     
+Total length (>= 50000 bp)   2563357     
+# contigs                    4           
+Largest contig               2563357     
+Total length                 2636043     
+Reference length             2610531     
+GC (%)                       54.06       
+Reference GC (%)             54.14       
+N50                          2563357     
+NG50                         2563357     
+N75                          2563357     
+NG75                         2563357     
+L50                          1           
+LG50                         1           
+L75                          1           
+LG75                         1           
+# misassemblies              1           
+# misassembled contigs       1           
+Misassembled contigs length  2563357     
+# local misassemblies        0           
+# unaligned mis. contigs     0           
+# unaligned contigs          2 + 0 part  
+Unaligned length             51543       
+Genome fraction (%)          97.566      
+Duplication ratio            1.015       
+# N's per 100 kbp            0.00        
+# mismatches per 100 kbp     0.00        
+# indels per 100 kbp         5.89        
+Largest alignment            1463673     
+Total aligned length         2584500     
+NA50                         1463673     
+NGA50                        1463673     
+NA75                         1099684     
+NGA75                        1099684     
+LA50                         1           
+LGA50                        1           
+LA75                         2           
+LGA75                        2           
