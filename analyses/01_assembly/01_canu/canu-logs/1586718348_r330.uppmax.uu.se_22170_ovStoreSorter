@@ -1,0 +1,13 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/trimming
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/ovStoreSorter \
+  -O ./canu.ovlStore.BUILDING \
+  -S ../canu.seqStore \
+  -C ./canu.ovlStore.config \
+  -f \
+  -s 2 \
+  -M 1

@@ -1,0 +1,15 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/trimming/3-overlapbasedtrimming
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/trimReads \
+  -S ../../canu.seqStore \
+  -O ../canu.ovlStore \
+  -Co ./canu.1.trimReads.clear \
+  -e 0.045 \
+  -minlength 1000 \
+  -ol 1 \
+  -oc 1 \
+  -o ./canu.1.trimReads

@@ -1,0 +1,8 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/correction/0-mercounts
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/meryl \
+  -C k=16 threads=4 memory=12 count segment=1/08 ../../canu.seqStore

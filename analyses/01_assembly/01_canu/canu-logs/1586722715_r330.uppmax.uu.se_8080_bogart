@@ -1,0 +1,22 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/unitigging/4-unitigger
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/bogart \
+  -S ../../canu.seqStore \
+  -O ../canu.ovlStore \
+  -o ./canu \
+  -gs 2600000 \
+  -eg 0.045 \
+  -eM 0.045 \
+  -mo 500 \
+  -dg 6 \
+  -db 6 \
+  -dr 3 \
+  -ca 2100 \
+  -cp 200 \
+  -threads 4 \
+  -M 16 \
+  -unassembled 2 0 1.0 0.5 3

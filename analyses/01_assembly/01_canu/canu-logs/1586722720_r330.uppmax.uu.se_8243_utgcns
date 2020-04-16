@@ -1,0 +1,15 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/unitigging/5-consensus
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/utgcns \
+  -S ../canu.utgStore/partitionedReads.seqStore \
+  -T ../canu.utgStore 1 0001 \
+  -O ./utgcns/0001.cns.WORKING \
+  -maxcoverage 40 \
+  -e 0.075 \
+  -pbdagcon \
+  -edlib \
+  -threads 1-4

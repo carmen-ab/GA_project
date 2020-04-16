@@ -1,0 +1,18 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/correction/2-correction
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/falconsense \
+  -S ../../canu.seqStore \
+  -C ../canu.corStore \
+  -R ./canu.readsToCorrect \
+  -r 130001-135000 \
+  -t 2 \
+  -cc 4 \
+  -cl 1000 \
+  -oi 0.7 \
+  -ol 500 \
+  -p ./results/0027.WORKING \
+  -cns

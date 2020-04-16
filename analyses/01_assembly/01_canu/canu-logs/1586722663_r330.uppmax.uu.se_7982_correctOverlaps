@@ -1,0 +1,14 @@
+Canu v1.8 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/cabau/GA_project/analyses/01_assembly/unitigging/3-overlapErrorAdjustment
+
+Command:
+/sw/bioinfo/canu/1.8/rackham/Linux-amd64/bin/correctOverlaps \
+  -S ../../canu.seqStore \
+  -O ../canu.ovlStore \
+  -R 1 215276 \
+  -e 0.045 \
+  -l 500 \
+  -c ./red.red \
+  -o ./00001.oea.WORKING
