@@ -4,5 +4,4 @@
 #TO RUN QUAST
 
 module load bioinfo-tools quast/4.5.4
-
 quast.py -o analyses/01_assembly/02_quast data/DNA/DNA_raw_data -r data/DNA/reference/OBMB01.fasta -t 4
