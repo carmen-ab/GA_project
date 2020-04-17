@@ -3,22 +3,32 @@
 	GA_project/
 	|
 	|
-	|-----data
+	|-----data/
 	|	|
-	|	|-----metadata
+	|	|-----metadata/
 	|Â	|	|-----info.csv
 	|	|	
-	|	|-----DNA
-	|	|	|-----DNA_raw_data
-	|	|	|-----DNA_reference
+	|	|-----DNA/
+	|	|	|-----DNA_raw_data/
+	|	|	|-----DNA_reference/
 	|	|
-	|	|-----RNA
-	|		|-----RNA_raw_data
-	|		|-----RNA_trimmed
+	|	|-----RNA/
+	|		|-----RNA_raw_data/
+	|		|-----RNA_trimmed/
 	|
-	|-----code
+	|-----code/
+	|	|
 	|	|-----01_batch_canu.sh
-	|
+	|	|-----02_batch_quast.sh
+	|	|-----commands.txt
+	|	|
+	|	|-----slurm/
 	|	
-	|-----analyses
-		|-----01_assembly
+	|-----analyses/
+		|
+		|-----01_assembly/
+		|	|-----01_canu/
+		|	|-----01_canu_2/
+		|	|-----02_quast/
+		|
+		|-----02_trimming/
