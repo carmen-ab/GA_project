@@ -1,6 +1,12 @@
 # This file contains all commands/programs that have been run on the command line directly
 # The exception are those commands who are specified in the Student Manual
 
+#TO RUN NUCMER (MUMMERPLOT)
+module load bioinfo-tools MUMmer/4.0.0beta2
+nucmer --maxmatch -t 2 -p nucmer ref.fasta assembly.fasta
+show-coords -r -c -l nucmer.delta > nucmer.coords
+
+
 #TO RUN QUAST
 
 module load bioinfo-tools quast/4.5.4

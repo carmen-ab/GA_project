@@ -1,0 +1,7 @@
+#Folders to ignore
+
+analyses/01_assembly/01_canu/
+analyses/01_assembly/01_canu_2/
+analyses/01_assembly/02_quast/
+analyses/01_assembly/03_nucmer/
+analyses/02_trimming/01_fastqc/

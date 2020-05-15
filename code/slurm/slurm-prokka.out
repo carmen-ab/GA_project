@@ -1,0 +1,12 @@
+Note the old-format NCBI blast databases are no longer being updated after September 2019, instead use blast/2.9.0+
+[17:20:33] This is prokka 1.12
+[17:20:33] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:20:33] Homepage is https://github.com/tseemann/prokka
+[17:20:33] Local time is Tue May  5 17:20:33 2020
+[17:20:33] You are cabau
+[17:20:33] Operating system is linux
+[17:20:33] You have BioPerl 1.007001
+[17:20:33] System has 20 cores.
+[17:20:33] Will use maximum of 2 cores.
+[17:20:33] Annotating as >>> Bacteria <<<
+[17:20:33] 'analyses/01_assembly/01_canu/canu.contigs.fasta' is not a readable non-empty FASTA file
