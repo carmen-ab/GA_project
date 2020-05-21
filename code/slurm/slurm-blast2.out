@@ -1,0 +1,2 @@
+New V5 databases are available: nr_v5 nt_v5 refseq_protein_v5 refseq_rna_v5, see 'module help blast/2.9.0+' for more information
+'num_threads' is currently ignored when 'subject' is specified.
