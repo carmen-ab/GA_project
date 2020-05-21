@@ -3,7 +3,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 1:00:00
-#SBATCH -J 01_synteny
+#SBATCH -J 02_synteny
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user carmen.abaor@gmail.com
 

@@ -11,3 +11,8 @@ show-coords -r -c -l nucmer.delta > nucmer.coords
 
 module load bioinfo-tools quast/4.5.4
 quast.py -o analyses/01_assembly/02_quast data/DNA/DNA_raw_data -r data/DNA/reference/OBMB01.fasta -t 4
+
+#TO CREATE BWA INDEX
+
+module load bioinfo-tools bwa/0.7.17
+bwa index -p ref.fasta ../03_annotation/prokka_.fna 
