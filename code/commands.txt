@@ -15,4 +15,4 @@ quast.py -o analyses/01_assembly/02_quast data/DNA/DNA_raw_data -r data/DNA/refe
 #TO CREATE BWA INDEX
 
 module load bioinfo-tools bwa/0.7.17
-bwa index -p ref.fasta ../03_annotation/prokka_.fna 
+bwa index -p ref_db ../03_annotation/01_prokka/prokka_.fna
