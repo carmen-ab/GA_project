@@ -1,0 +1,11 @@
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
+TrimmomaticPE: Started with arguments:
+ -threads 2 -phred33 -basein /home/cabau/GA_project/data/DNA/DNA_raw_data/ERR2036629_1.fastq.gz -baseout /home/cabau/GA_project/analyses/02_trimming/04_trimmomatic/ERR2036629_trimmed.fastq.gz  
+Using templated Input files: /home/cabau/GA_project/data/DNA/DNA_raw_data/ERR2036629_1.fastq.gz /home/cabau/GA_project/data/DNA/DNA_raw_data/ERR2036629_2.fastq.gz
+Using templated Output files: /home/cabau/GA_project/analyses/02_trimming/04_trimmomatic/ERR2036629_trimmed_1P.fastq.gz /home/cabau/GA_project/analyses/02_trimming/04_trimmomatic/ERR2036629_trimmed_1U.fastq.gz /home/cabau/GA_project/analyses/02_trimming/04_trimmomatic/ERR2036629_trimmed_2P.fastq.gz /home/cabau/GA_project/analyses/02_trimming/04_trimmomatic/ERR2036629_trimmed_2U.fastq.gz
+Exception in thread "main" java.lang.RuntimeException: Unknown trimmer:  
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:70)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:536)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+/var/spool/slurmd/job14454766/slurm_script: line 21: ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/Tru-Seq3-PE.fa:2:30:10LEADING:15: No such file or directory
