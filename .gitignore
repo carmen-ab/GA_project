@@ -5,6 +5,7 @@ analyses/01_assembly/01_canu_2/
 analyses/01_assembly/02_quast/
 analyses/01_assembly/03_nucmer/
 analyses/02_trimming/
+analyses/05_mapping/*.bam
 
 #Files to ignore
 
