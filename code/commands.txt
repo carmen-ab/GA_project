@@ -16,3 +16,11 @@ quast.py -o analyses/01_assembly/02_quast data/DNA/DNA_raw_data -r data/DNA/refe
 
 module load bioinfo-tools bwa/0.7.17
 bwa index -p ref_db ../03_annotation/01_prokka/prokka_.fna
+
+#TO CREATE .STATS FILES
+
+module load bioinfo-tools samtools
+for list in 29 30 31 32 33
+do
+samtools stats ../${list}.bam > ${list}.stats
+done      
