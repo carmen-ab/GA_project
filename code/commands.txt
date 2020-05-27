@@ -6,7 +6,6 @@ module load bioinfo-tools MUMmer/4.0.0beta2
 nucmer --maxmatch -t 2 -p nucmer ref.fasta assembly.fasta
 show-coords -r -c -l nucmer.delta > nucmer.coords
 
-
 #TO RUN QUAST
 
 module load bioinfo-tools quast/4.5.4
@@ -24,3 +23,8 @@ for list in 29 30 31 32 33
 do
 samtools stats ../${list}.bam > ${list}.stats
 done      
+
+#TO VISUALIZE FASTQC FILES
+
+module load bioinfo-tools MultiQC
+multiqc .
