@@ -6,7 +6,7 @@
 	|-----data/
 	|	|
 	|	|-----metadata/
-	|Â	|	|-----info.csv
+	|	|	|-----info.csv
 	|	|	
 	|	|-----DNA/
 	|	|	|-----DNA_raw_data/
@@ -20,6 +20,13 @@
 	|	|
 	|	|-----01_batch_canu.sh
 	|	|-----02_batch_quast.sh
+        |       |-----03_batch_prokka.sh
+        |       |-----04_batch_fastqc.sh
+        |       |-----05_batch_fastqc_trimmed.sh
+        |       |-----06_batch_blast.sh
+        |       |-----07_batch_bwa.sh
+        |       |-----08_batch_htseq.sh
+        |       |-----09_batch_trimmomatic.sh
 	|	|-----commands.txt
 	|	|
 	|	|-----slurm/
@@ -28,7 +35,17 @@
 		|
 		|-----01_assembly/
 		|	|-----01_canu/
-		|	|-----01_canu_2/
 		|	|-----02_quast/
+		|	|-----03_nucmer/
 		|
-		|-----02_trimming/
+		|-----02_trimming/01_fastqc/multiqc/
+		|
+		|-----03_annotation/
+		|	|-----01_prokka/
+		|	|-----02_eggnog/
+		|
+		|-----04_synteny/
+		|
+		|-----05_mapping/
+		|
+		|-----06_diffan/
